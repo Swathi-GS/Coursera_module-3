@@ -21,8 +21,9 @@
 // xxxx.xxxx = helloSpeaker;
 
 (function(window) {
+	var helloSpeaker={};
 	var speakWord = "Hello";
-	var helloSpeaker = function (name) {
+	helloSpeaker = function (name) {
 		console.log(speakWord + " " + name);
 	}
 
